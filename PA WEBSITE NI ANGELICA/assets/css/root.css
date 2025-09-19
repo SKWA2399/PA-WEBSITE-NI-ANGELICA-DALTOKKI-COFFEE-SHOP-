@@ -1,0 +1,54 @@
+:root {
+    /* Primary Background Colors - Based on menu paper texture */
+    --bg-light: #faf9f7;       /* soft cream paper background */
+    --bg-warm: #f5f2ed;        /* warmer cream for cards */
+    --bg-accent: #f0ebe3;      /* subtle accent background */
+    
+    /* Dark Theme Colors for Cards */
+    --card-dark: #2c2825;      /* dark brown card background */
+    --card-dark-hover: #3a342f; /* darker brown for hover */
+    --text-on-dark: #f5f2ed;   /* light text for dark backgrounds */
+    --text-muted-dark: #b8b3ae; /* muted text for dark backgrounds */
+    
+    /* Text Colors - Elegant and readable */
+    --text-dark: #2c2825;      /* rich dark brown for main text */
+    --text-medium: #4a453f;    /* medium brown for secondary text */
+    --text-light: #6b6560;     /* lighter brown for descriptions */
+    --text-muted: #8a8580;     /* muted for placeholders */
+    --text-white: #ffffff;     /* pure white for dark backgrounds */
+    
+    /* Primary Brand Colors - Coffee shop warmth */
+    --primary-brown: #6b4423;   /* rich coffee brown - main brand color */
+    --primary-dark: #4a2f18;    /* darker brown for depth */
+    --primary-light: #8b5a35;   /* lighter brown for hover states */
+    
+    /* Accent Colors - From menu decorative elements */
+    --accent-gold: #d4af7a;     /* warm gold from decorative strokes */
+    --accent-cream: #f2e6d3;    /* cream from whipped elements */
+    --accent-rose: #e8b5c4;     /* soft rose from floral decorations */
+    --accent-sage: #a8b5a0;     /* muted sage green from matcha elements */
+    --accent-matcha: #9db380;   /* matcha green from drinks */
+    
+    /* Functional Colors */
+    --success: #7a9471;         /* muted green for success states */
+    --warning: #d4af7a;         /* gold for warnings */
+    --error: #c67b7b;           /* muted red for errors */
+    --info: #8b9dc3;            /* soft blue for info */
+    
+    /* Interactive States */
+    --hover-overlay: rgba(107, 68, 35, 0.1);  /* brown overlay for hovers */
+    --active-overlay: rgba(107, 68, 35, 0.15); /* darker for active states */
+    --focus-ring: rgba(212, 175, 122, 0.4);   /* gold focus ring */
+    
+    /* Shadows and Borders */
+    --shadow-light: rgba(44, 40, 37, 0.08);   /* subtle shadows */
+    --shadow-medium: rgba(44, 40, 37, 0.12);  /* medium shadows */
+    --shadow-strong: rgba(44, 40, 37, 0.18);  /* strong shadows */
+    --border-light: rgba(107, 68, 35, 0.15);  /* light borders */
+    --border-medium: rgba(107, 68, 35, 0.25); /* medium borders */
+    
+    /* Legacy Variables for Compatibility */
+    --main-color: var(--primary-brown);
+    --text-color: var(--text-dark);
+    --bg-color: var(--bg-light);
+  }

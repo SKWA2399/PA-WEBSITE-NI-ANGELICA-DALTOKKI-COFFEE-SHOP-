@@ -1,0 +1,177 @@
+{
+    "restaurant_info": {
+      "name": "Chrysava's - Dal Tokki Cafe",
+      "concept": "Korean-Filipino fusion cafe with rabbit-themed branding",
+      "currency": "Philippine Peso (₱)",
+      "price_range": "₱70 - ₱909"
+    },
+    "menu_categories": {
+      "noodles_and_rice_cakes": {
+        "category_name": "Ramyeon and Tteokbokki",
+        "note": "Ramyeon is served with a side of Kimchi",
+        "items": [
+          {"code": "RT1", "name": "Korean Ramyeon", "price": 99},
+          {"code": "RT2", "name": "Egg and Cheese Ramyeon", "price": 139},
+          {"code": "RT3", "name": "Seafood Ramyeon", "price": 159},
+          {"code": "RT4", "name": "Rabokki", "price": 199},
+          {"code": "T1", "name": "Tteokbokki", "price": 169}
+        ]
+      },
+      "sandwiches_and_burgers": {
+        "category_name": "Sandwich and Burger",
+        "note": "All served with a side of fries",
+        "items": [
+          {"code": "SB1", "name": "Cheesy New Yorker Sandwich", "price": 89},
+          {"code": "SB2", "name": "Cheesy Hungarian Sausage Sandwich", "price": 109},
+          {"code": "SB3", "name": "Egg and Spam Sandwich", "price": 119},
+          {"code": "SB4", "name": "Bulgogi Burger", "price": 139},
+          {"code": "SB5", "name": "Crispy Chicken Sandwich", "price": 159},
+          {"code": "SB6", "name": "Spicy Crispy Chicken Sandwich", "price": 169}
+        ],
+        "upgrade_option": "Add ₱10 to upgrade to Flavored Fries (Cheese, Sour Cream, BBQ and Wasabi)"
+      },
+      "salads_and_rolls": {
+        "category_name": "Salad and Rolls",
+        "items": [
+          {"code": "S1", "name": "Kani Salad", "price": 169},
+          {"code": "S2", "name": "Cucumber Tuna", "price": 169},
+          {"code": "R1", "name": "Samgyeop Roll", "price": 129},
+          {"code": "R2", "name": "Ham Kimbap", "price": 169},
+          {"code": "R3", "name": "Bulgogi Kimbap", "price": 169}
+        ]
+      },
+      "fries_pasta_noodles": {
+        "category_name": "Fries Faves, Pasta and Noodles",
+        "items": [
+          {"code": "F1", "name": "Flavored French Fries", "price": 79},
+          {"code": "F2", "name": "Nuggets and Fries", "price": 119},
+          {"code": "F3", "name": "Chicken Loaded Fries", "price": 169},
+          {"code": "F4", "name": "Chicken Pops", "price": 199},
+          {"code": "P1", "name": "Creamy Penne", "price": 169},
+          {"code": "P2", "name": "Gourmet Tuna Pasta", "price": 189},
+          {"code": "N1", "name": "Chapchae", "price": 199}
+        ],
+        "flavored_fries_choices": "Cheese, Sour Cream, BBQ and Wasabi"
+      },
+      "pinoy_rice_meals": {
+        "category_name": "Pinoy Rice Meal",
+        "items": [
+          {"code": "PR1", "name": "New Yorker Hotdog with Rice", "price": 89},
+          {"code": "PR2", "name": "Cheesy Hungarian Sausage with Rice", "price": 139},
+          {"code": "PR3", "name": "Sinigang na Hipon", "price": 169},
+          {"code": "PR4", "name": "Garlic Buttered Shrimp", "price": 179},
+          {"code": "PR5", "name": "Lechon Kawali Sinigang", "price": 179},
+          {"code": "PR6", "name": "Lechon Kawali Kare-Kare", "price": 179}
+        ]
+      },
+      "korean_rice_meals": {
+        "category_name": "Korean Rice Meal",
+        "note": "All served with a side of Kimchi",
+        "items": [
+          {"code": "KM1", "name": "Korean Spam and Egg with Rice", "price": 139},
+          {"code": "KM2", "name": "Chicken Pops with Rice", "price": 159},
+          {"code": "KM3", "name": "Bulgogi Double Burger Steak", "price": 169},
+          {"code": "KM4", "name": "Bibimbap", "price": 189}
+        ]
+      }
+    },
+    "beverages": {
+      "coffee": {
+        "category_name": "Coffee",
+        "items": [
+          {"code": "C1", "name": "Americano", "hot_12oz": 70, "hot_16oz": 75, "iced_16oz": 90, "iced_22oz": 105},
+          {"code": "C2", "name": "Cafe Latte", "hot_12oz": 95, "hot_16oz": 110, "iced_16oz": 125, "iced_22oz": 145},
+          {"code": "C3", "name": "Cappuccino", "hot_12oz": 95, "hot_16oz": 110, "iced_16oz": 125, "iced_22oz": 145},
+          {"code": "C4", "name": "Spanish Latte", "hot_12oz": 105, "hot_16oz": 115, "iced_16oz": 130, "iced_22oz": 150},
+          {"code": "C5", "name": "Caramel Macchiato", "hot_12oz": 105, "hot_16oz": 115, "iced_16oz": 130, "iced_22oz": 150},
+          {"code": "C6", "name": "Salted Caramel", "hot_12oz": 105, "hot_16oz": 115, "iced_16oz": 130, "iced_22oz": 150},
+          {"code": "C7", "name": "Cafe Mocha", "hot_12oz": 105, "hot_16oz": 115, "iced_16oz": 130, "iced_22oz": 150},
+          {"code": "C8", "name": "White Mocha Latte", "hot_12oz": 105, "hot_16oz": 115, "iced_16oz": 130, "iced_22oz": 150},
+          {"code": "C9", "name": "Dirty Matcha", "hot_12oz": 105, "hot_16oz": 115, "iced_16oz": 130, "iced_22oz": 150},
+          {"code": "C10", "name": "Hazelnut Mocha Macchiato", "hot_12oz": 110, "hot_16oz": 120, "iced_16oz": 135, "iced_22oz": 150},
+          {"code": "C11", "name": "Strawberry Matcha Fusion", "iced_12oz": 120, "iced_16oz": 135, "iced_22oz": 155},
+          {"code": "C12", "name": "Blueberry Fusion", "iced_12oz": 120, "iced_16oz": 135, "iced_22oz": 155},
+          {"code": "C13", "name": "Biscoff Latte", "hot_12oz": 110, "hot_16oz": 135, "iced_16oz": 150, "iced_22oz": 170},
+          {"code": "C14", "name": "Mocha Ala Mode", "iced_16oz": 135, "iced_22oz": 150, "iced_extra": 170}
+        ],
+        "add_ons": [
+          {"name": "Espresso Shot", "price": 20},
+          {"name": "Syrup", "price": 20},
+          {"name": "Ice Cream", "price": 30},
+          {"name": "Whipped Cream", "price": 30},
+          {"name": "Oatmilk Upgrade", "price": 50}
+        ]
+      },
+      "non_coffee": {
+        "category_name": "Non-Coffee",
+        "items": [
+          {"code": "NC1", "name": "Chocolate", "hot_12oz": 80, "iced_12oz": 100, "iced_16oz": 115, "iced_22oz": 135},
+          {"code": "NC2", "name": "Nutella", "hot_12oz": 95, "iced_12oz": 110, "iced_16oz": 125, "iced_22oz": 145},
+          {"code": "NC3", "name": "Milky Strawberry", "iced_12oz": 110, "iced_16oz": 125, "iced_22oz": 145},
+          {"code": "NC4", "name": "Milky Blueberry", "iced_12oz": 110, "iced_16oz": 125, "iced_22oz": 145},
+          {"code": "NC5", "name": "Milky Matcha", "hot_12oz": 110, "iced_12oz": 110, "iced_16oz": 125, "iced_22oz": 145},
+          {"code": "NC6", "name": "Milky Strawberry Cocoa", "iced_12oz": 115, "iced_16oz": 130, "iced_22oz": 150},
+          {"code": "NC7", "name": "Milky Strawberry Matcha", "iced_12oz": 115, "iced_16oz": 130, "iced_22oz": 150},
+          {"code": "NC8", "name": "Nutella Ala Mode", "iced_16oz": 135, "iced_22oz": 150, "iced_extra": 170},
+          {"code": "NC9", "name": "Milky Strawberry Ala Mode", "iced_16oz": 135, "iced_22oz": 150, "iced_extra": 170},
+          {"code": "NC10", "name": "Milky Blueberry Ala Mode", "iced_16oz": 135, "iced_22oz": 150, "iced_extra": 170},
+          {"code": "NC11", "name": "Milky Strawberry Matcha Cocoa Ala Mode", "iced_16oz": 135, "iced_22oz": 150, "iced_extra": 170},
+          {"code": "NC12", "name": "Biscoff", "hot_12oz": 110, "iced_12oz": 135, "iced_16oz": 150, "iced_extra": 170},
+          {"code": "NC13", "name": "Biscoff Matcha", "hot_12oz": 115, "iced_12oz": 140, "iced_16oz": 155, "iced_extra": 175}
+        ],
+        "add_ons": [
+          {"name": "Espresso Shot", "price": 20},
+          {"name": "Syrup", "price": 20},
+          {"name": "Ice Cream", "price": 30},
+          {"name": "Whipped Cream", "price": 30},
+          {"name": "Oatmilk Upgrade", "price": 50}
+        ]
+      }
+    },
+    "desserts": {
+      "category_name": "Dessert - Croissant, Cake and Pastries",
+      "croffles": {
+        "regular": {"price_per_piece": 110, "box_price": 420},
+        "premium": {"price_per_piece": 110, "box_price": 420}
+      },
+      "premium_croffle_flavors": [
+        {"code": "PC1", "name": "Strawberry"},
+        {"code": "PC2", "name": "Blueberry"},
+        {"code": "PC3", "name": "Choco S'mores Oreo"},
+        {"code": "PC4", "name": "Choco Alcapone"},
+        {"code": "PC5", "name": "Caramel Biscoff"},
+        {"code": "PC6", "name": "Matcha Alcapone"},
+        {"code": "PC7", "name": "Java Chip"},
+        {"code": "PC8", "name": "Alcapone Nutella"},
+        {"code": "PC9", "name": "Banana Nutella"}
+      ]
+    },
+    "party_trays": {
+      "category_name": "Korean Party Trays",
+      "items": [
+        {"code": "KF1", "name": "Samgyeop Roll", "price": 629},
+        {"code": "KF2", "name": "Kimbap", "price": 489},
+        {"code": "KF3", "name": "Chapchae", "price": 579},
+        {"code": "KF4", "name": "Chicken Pops", "price": 589},
+        {"code": "KF5", "name": "Samgyeop Roll X Chicken Pops", "price": 899},
+        {"code": "KF6", "name": "Kimbap X Chapchae", "price": 809},
+        {"code": "KF7", "name": "Kimbap X Samgyeop Roll", "price": 839},
+        {"code": "KF8", "name": "Chapchae X Chicken Pops", "price": 779},
+        {"code": "KF9", "name": "Kimbap X Samgyeop Roll X Chicken Pops", "price": 909}
+      ]
+    },
+    "summary_stats": {
+      "total_menu_items": 67,
+      "total_categories": 8,
+      "cheapest_item": "Americano Hot 12oz - ₱70",
+      "most_expensive_item": "Kimbap X Samgyeop Roll X Chicken Pops Party Tray - ₱909",
+      "beverage_sizes": ["12oz", "16oz", "22oz", "Extra"],
+      "special_notes": [
+        "Korean dishes served with kimchi",
+        "Sandwiches/burgers include fries",
+        "Flavored fries upgrade available for ₱10",
+        "Multiple beverage customization options",
+        "Party trays available for groups"
+      ]
+    }
+  }
